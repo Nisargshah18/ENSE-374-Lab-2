@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Login </title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+
+   </head>
+   <style>
+      #container{
+         text-align: center;
+         margin: auto;
+       width: 400px;
+       margin-top: 5%;
+      border: 1px solid #ccc;
+      }
+   </style>
+   <body>
+      <h2 class="display-2 text-center">To-Do Prototype</h2>
+      <div id ="container">
+       
+         <div id="accordion">
+           <div class="card">
+             <div class="card-header">
+               <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                 Login
+               </a>
+             </div>
+             <div id="collapseOne" class="collapse show" data-parent="#accordion">
+               <div class="card-body">
+               <form action="todo.html">
+                         <div class="form-group">
+                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                         </div>
+                         <div class="form-group">
+                           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                         </div>
+                         <button type="submit" class="btn btn-primary">Submit</button>
+                       </form>
+               </div>
+             </div>
+           </div>
+           <div class="card">
+             <div class="card-header">
+               <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+               Sign Up
+             </a>
+             </div>
+             <div id="collapseTwo" class="collapse" data-parent="#accordion">
+               <div class="card-body">
+                  <form action="todo.html">
+                         <div class="form-group">
+                           
+                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                         </div>
+                         <div class="form-group">
+                           
+                           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                         </div>
+                         <div class="form-group">
+                           
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Authentication">
+                          </div>
+                         <button type="submit" class="btn btn-primary">Sign Up</button>
+                       </form>
+               </div>
+             </div>
+           </div>
+          
+         </div>
+       </div>
+  
+   </body>
+   
+
+   
+</html>
+
+
